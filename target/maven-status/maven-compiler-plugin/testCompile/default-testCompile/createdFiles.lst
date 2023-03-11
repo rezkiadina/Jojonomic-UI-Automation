@@ -1,0 +1,3 @@
+RunCukesTest.class
+StepDefinition\JojonomicStepDef.class
+Jojonomic\Page\JojonomicPage.class
