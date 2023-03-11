@@ -13,7 +13,12 @@
 ![Serenity](https://img.shields.io/badge/-serenity-16a67a?style=for-the-badge&logo=serenity&logoColor=black)
 ![Cucumber](https://img.shields.io/badge/-cucumber-4bc47b?style=for-the-badge&logo=cucumber&logoColor=black)
 
+### Prerequisites
 
+- Java 1.8
+- Maven
+- Gherkin for Java
+- Cucumber
 
 ## 📱 My Profile
 
