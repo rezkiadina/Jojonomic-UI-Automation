@@ -20,6 +20,10 @@
 - Gherkin for Java
 - Cucumber
 
+## BUG
+1. Service list name that sometimes doesn't exist
+2. Browser size affects the searched list
+
 ## 📱 My Profile
 
   [![LinkedIn](https://img.shields.io/badge/-Rezki%20Adina-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/rezkiadina/)
