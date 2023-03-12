@@ -14,8 +14,6 @@ public class JojonomicPage {
     public static final String Locate_URL = "https://www.service.nsw.gov.au/service-centre";
     public static final By Search_Suburb = By.id("locatorTextSearch");
     public static final By Button_Search_Suburb = By.xpath("//button[@class='button button--primary button--xxlarge']");
-    // public static final By ServiceCenter_Name = By.xpath("//div[@class='locator__results-list']/div[contains(.,'Marrickville Service Centre Marrickville Metro Shopping CentreShop 920 Smidmore')]");
-    //  public static final By ServiceCenter_Name_2 = By.xpath("//div[@class='locator__results-list']/div[contains(.,'Rockdale Service CentreMezzanine Level, Rockdale PlazaShop 61 Rockdale Plaza Dri')]");
 
 
     @Step
@@ -25,16 +23,3 @@ public class JojonomicPage {
     }
 }
 
-
-
-
-
-
-
-//    public boolean isProductDisplayed(String productName) {
-//        WebElement dataSample = WebDriverInstance.getRemoteDriver().findElement(By.xpath("//div[@class='inventory_item_name'][text()='" + productName + "']"));
-//        System.out.printf("Data di element adalah: %s. Data yang ingin diassert adalah %s%n", dataSample.getText(), productName);
-//        return dataSample.isDisplayed();
-//    }
-
-//}

@@ -15,7 +15,6 @@ public class JojonomicStepDef {
 
     @Given("user open the web page")
     public void userOpenTheWebPage() {
-
         getDriver().get(JojonomicPage.NavPage_URL);
 
     }
@@ -60,7 +59,6 @@ public class JojonomicStepDef {
 
     @And("should use service centre named as {string}")
     public void shouldUseServiceCentreNamedAs(String name) {
-      //  getDriver().findElement(JojonomicPage.ServiceCenter_Name).isDisplayed();
         getDriver().findElement(jojonomicPage.validateServiceCenterName(name)).isDisplayed();
 
     }
